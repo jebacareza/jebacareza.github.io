@@ -55,18 +55,17 @@ Here we are just overriding the previous radii variable with:
 radii = np.random.randint(1, 1000, 1000000)
 ```
 
-We can then use the same formula as above to calculate the volumes. If you run this, you will find that it takes less than a second to complete, almost an instant.
+We can then use the same formula as above to calculate the volumes. 
 
 ```python
 volumes = 4/3 * np.pi * radii**3
 print(volumes)
 >>> [2.83512464e+09 5.88494864e+06 4.10515850e+07 ... 3.50139670e+09
  6.16008724e+07 2.75833092e+06]
-```
-
-To double check if it indeed produced an output of 1M volumes, just check the length of the array.
-
-```python
 len(volumes)
 >>> 1000000
 ```
+
+If you run this, you will find that it takes less than a second to complete, almost an instant! This just shows how powerful the NumPy library is for tasks in data science and other applications.
+
+
