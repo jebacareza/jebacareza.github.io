@@ -52,7 +52,7 @@ As we are predicting a binary output, we tested four classification modelling ap
 * Random Forest
 * K Nearest Neighbours (KNN)
 
-For each model, we will import the data in the same way but will need to pre-process the data based up the requirements of each particular algorithm.  We will train & test each model, look to refine each to provide optimal performance, and then measure this predictive performance based on several metrics to give a well-rounded overview of which is best.
+For each model, we will import the data in the same way but will need to pre-process the data based upon the requirements of each particular algorithm.  We will train & test each model, look to refine each to provide optimal performance, and then measure this predictive performance based on several metrics to give a well-rounded overview of which is best.
 <br>
 <br>
 
@@ -1663,3 +1663,4 @@ While predictive accuracy was relatively high - other modelling approaches could
 We could even look to tune the hyperparameters of the Random Forest, notably regularisation parameters such as tree depth, as well as potentially training on a higher number of Decision Trees in the Random Forest.
 
 From a data point of view, further variables could be collected, and further feature engineering could be undertaken to ensure that we have as much useful information available for predicting customer loyalty
+
